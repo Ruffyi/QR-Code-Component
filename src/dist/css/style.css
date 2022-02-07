@@ -1,2 +1,41 @@
-body {
-  background-color: blue; }
+:root {
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  font-size: 62.5%; }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+.img {
+  display: block;
+  width: 100%;
+  border-radius: 1rem; }
+
+#root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #d6e2f0; }
+
+.qrcode {
+  width: Min(30rem, 80%);
+  height: 45rem;
+  background-color: #ffffff;
+  border-radius: 2rem;
+  text-align: center; }
+  .qrcode__image {
+    height: 50%;
+    padding: 2rem; }
+  .qrcode__title {
+    margin: 2rem 0;
+    color: #1f3251;
+    font-size: 2rem; }
+  .qrcode__description {
+    color: #7b879d;
+    font-size: 1.5rem; }

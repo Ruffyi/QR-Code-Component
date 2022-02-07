@@ -1,0 +1,5 @@
+#root {
+	@include flex();
+	min-height: 100vh;
+	background-color: map-get($colors, 'clr-primary-light-gray');
+}
